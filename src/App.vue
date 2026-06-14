@@ -200,7 +200,7 @@ import ServiceCard from './components/ServiceCard.vue'
 }
 
 .hero-text h1 {
-  font-size: 46px;
+  font-size: 40px;
   font-weight: 900;
   color: #0B1F52;
   letter-spacing: -1px;
