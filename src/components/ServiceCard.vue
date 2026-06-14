@@ -6,40 +6,26 @@
 
     <h2>{{ title }}</h2>
 
-    <button>
-      Lihat Detail
-      <span>→</span>
-    </button>
+  <a
+    :href="driveLink"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="btn"
+  >
+    Lihat Detail
+    <span>→</span>
+  </a>
   </div>
 </template>
 
 <script setup>
 defineProps({
   icon: String,
-  title: String
+  title: String,
+  driveLink: String
 })
 </script>
 
-<script setup> 
-const services = [ 
- {
-    title: "KEUANGAN",
-    icon: "💼",
-    driveLink: "https://drive.google.com/drive/folders/1b3KNPeIj1S10KOHBpjWcGrX-_3uL-FtL?usp=sharing"
-  },
-  {
-    title: "SARANA DAN PRASARANA",
-    icon: "🏢",
-    driveLink: "https://drive.google.com/drive/folders/1QUlp4mkSujYfTtyLDJhO6Cc-MYWq7Kbw?usp=sharing"
-  },
-  {
-    title: "KEPEGAWAIAN",
-    icon: "👥",
-    driveLink: "https://drive.google.com/drive/folders/1BE5EZu94EE32hugHShai16OwLVSfXJN7?usp=sharing"
-  } 
-]
-
-</script>
 
 <style scoped>
 .card {
@@ -74,17 +60,22 @@ h2 {
   text-align: center;
 }
 
-button {
+.btn {
   background: #001a44;
   color: white;
-  border: none;
+  text-decoration: none;
   padding: 14px 34px;
   border-radius: 7px;
   font-size: 16px;
-  cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s ease;
 }
 
-button span {
+.btn:hover {
+  background: #002b70;
+}
+
+.btn span {
   color: #ffb703;
   margin-left: 10px;
 }
