@@ -20,6 +20,27 @@ defineProps({
 })
 </script>
 
+<script setup> 
+const services = [ 
+ {
+    title: "KEUANGAN",
+    icon: "💼",
+    driveLink: "https://drive.google.com/drive/folders/1b3KNPeIj1S10KOHBpjWcGrX-_3uL-FtL?usp=sharing"
+  },
+  {
+    title: "SARANA DAN PRASARANA",
+    icon: "🏢",
+    driveLink: "https://drive.google.com/drive/folders/1QUlp4mkSujYfTtyLDJhO6Cc-MYWq7Kbw?usp=sharing"
+  },
+  {
+    title: "KEPEGAWAIAN",
+    icon: "👥",
+    driveLink: "https://drive.google.com/drive/folders/1BE5EZu94EE32hugHShai16OwLVSfXJN7?usp=sharing"
+  } 
+]
+
+</script>
+
 <style scoped>
 .card {
   min-height: 330px;

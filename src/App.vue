@@ -65,16 +65,19 @@
         <ServiceCard
           icon="💼"
           title="KEUANGAN"
+          driveLink="https://drive.google.com/drive/folders/1b3KNPeIj1S10KOHBpjWcGrX-_3uL-FtL?usp=sharing"
         />
 
         <ServiceCard
           icon="🏢"
           title="SARANA DAN PRASARANA"
+          driveLink="https://drive.google.com/drive/folders/1QUlp4mkSujYfTtyLDJhO6Cc-MYWq7Kbw?usp=sharing"
         />
 
         <ServiceCard
           icon="👥"
           title="KEPEGAWAIAN"
+          driveLink= "https://drive.google.com/drive/folders/1BE5EZu94EE32hugHShai16OwLVSfXJN7?usp=sharing"
         />
       </section>
 
