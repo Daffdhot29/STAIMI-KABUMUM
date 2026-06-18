@@ -12,7 +12,7 @@
 
         <a class="menu-item" href="#">
           <span>▣</span>
-          Keuangan
+          Administrasi
         </a>
 
         <a class="menu-item" href="#">
@@ -64,7 +64,7 @@
       <section class="cards">
         <ServiceCard
           icon="💼"
-          title="KEUANGAN"
+          title="ADMINISTRASI"
           driveLink="https://drive.google.com/drive/folders/1b3KNPeIj1S10KOHBpjWcGrX-_3uL-FtL?usp=sharing"
         />
 
